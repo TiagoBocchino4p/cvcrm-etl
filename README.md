@@ -264,7 +264,8 @@ MIT License - veja o arquivo LICENSE para detalhes.
 
 ## 📞 Suporte
 
-- 📧 Email: seu.email@gmail.com
+- 📧 Email: tiago.bocchino@4pcapital.com.br
+- 📱 Telefone: (61) 99952-0802
 - 🐛 Issues: GitHub Issues
 - 📖 Docs: Este README
 
