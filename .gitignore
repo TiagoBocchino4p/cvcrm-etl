@@ -1,0 +1,112 @@
+# ============================================
+# CVCRM ETL - Security and Privacy Protection  
+# LGPD Compliance - No Personal Data on GitHub
+# ============================================
+
+# 🔒 CRITICAL: Credentials and Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# 🔒 CRITICAL: Database credentials and connections
+*.db
+*.sqlite
+*.sql
+
+# 🔒 CRITICAL: API keys and tokens  
+*token*
+*key*
+*secret*
+credentials.json
+*-credentials.json
+cvcrm-sheets-integration-*.json
+
+# 🔒 CRITICAL: Personal data and logs
+*.log
+logs/
+cvcrm_etl.log
+
+# 🔒 CRITICAL: Email configurations with passwords
+*password*
+*auth*
+
+# 🔒 Python Environment and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 🔒 Virtual Environment  
+.venv
+venv/
+env/
+ENV/
+Lib/
+Scripts/
+pyvenv.cfg
+Include/
+
+# 🔒 IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 🔒 OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 🔒 Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 🔒 Railway and Cloud Platform files
+.railway/
+
+# 🔒 Testing and Development files
+test_*.py
+debug_*.py
+scratch_*.py
+
+# ============================================
+# Allow only safe documentation and code files
+# ============================================
+!README.md
+!CLAUDE.md
+!RESUMO_EXECUTIVO.md
+!prodution_guide.md
+!DOCUMENTACAO_*.md
+!main.py
+!monitoring.py
+!requirements.txt
+!runtime.txt
+!Procfile
+!railway.json
+!.env.example
